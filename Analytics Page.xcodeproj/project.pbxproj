@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1C1839C228715A11003D365F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1839C128715A11003D365F /* Home.swift */; };
+		1C1839C328715A11003D365F /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1839C128715A11003D365F /* Home.swift */; };
+		1C1839C6287161F2003D365F /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1839C5287161F2003D365F /* Company.swift */; };
+		1C1839C7287161F2003D365F /* Company.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1839C5287161F2003D365F /* Company.swift */; };
+		1C1839C928716B32003D365F /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1839C828716B32003D365F /* LineGraph.swift */; };
+		1C1839CA28716B32003D365F /* LineGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1839C828716B32003D365F /* LineGraph.swift */; };
 		DCF72B172870A69700FA5E2E /* Analytics_PageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF72B072870A69600FA5E2E /* Analytics_PageApp.swift */; };
 		DCF72B182870A69700FA5E2E /* Analytics_PageApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF72B072870A69600FA5E2E /* Analytics_PageApp.swift */; };
 		DCF72B192870A69700FA5E2E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF72B082870A69600FA5E2E /* ContentView.swift */; };
@@ -16,6 +22,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C1839C128715A11003D365F /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		1C1839C5287161F2003D365F /* Company.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Company.swift; sourceTree = "<group>"; };
+		1C1839C828716B32003D365F /* LineGraph.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineGraph.swift; sourceTree = "<group>"; };
 		DCF72B072870A69600FA5E2E /* Analytics_PageApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Analytics_PageApp.swift; sourceTree = "<group>"; };
 		DCF72B082870A69600FA5E2E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCF72B092870A69700FA5E2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -42,6 +51,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1C1839BF287159DE003D365F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				1C1839C128715A11003D365F /* Home.swift */,
+				1C1839C828716B32003D365F /* LineGraph.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		1C1839C4287161E2003D365F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1C1839C5287161F2003D365F /* Company.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		DCF72B012870A69600FA5E2E = {
 			isa = PBXGroup;
 			children = (
@@ -54,6 +80,8 @@
 		DCF72B062870A69600FA5E2E /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				1C1839C4287161E2003D365F /* Model */,
+				1C1839BF287159DE003D365F /* View */,
 				DCF72B072870A69600FA5E2E /* Analytics_PageApp.swift */,
 				DCF72B082870A69600FA5E2E /* ContentView.swift */,
 				DCF72B092870A69700FA5E2E /* Assets.xcassets */,
@@ -177,7 +205,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCF72B192870A69700FA5E2E /* ContentView.swift in Sources */,
+				1C1839C928716B32003D365F /* LineGraph.swift in Sources */,
+				1C1839C228715A11003D365F /* Home.swift in Sources */,
 				DCF72B172870A69700FA5E2E /* Analytics_PageApp.swift in Sources */,
+				1C1839C6287161F2003D365F /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,7 +217,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCF72B1A2870A69700FA5E2E /* ContentView.swift in Sources */,
+				1C1839CA28716B32003D365F /* LineGraph.swift in Sources */,
+				1C1839C328715A11003D365F /* Home.swift in Sources */,
 				DCF72B182870A69700FA5E2E /* Analytics_PageApp.swift in Sources */,
+				1C1839C7287161F2003D365F /* Company.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
